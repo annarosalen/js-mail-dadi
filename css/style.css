@@ -1,0 +1,22 @@
+body{
+  background-color: lightblue;
+}
+
+
+.contenitore{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.messaggio{
+  min-height: 200px;
+  width: 400px;
+  background-color: white;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: solid grey 2px;
+}

@@ -14,7 +14,7 @@ for (var i=0; i < listaemail.length; i++){
 
   if (email === listaemail[i]) {
     controllo = true;
-  } 
+  }
 
 }
 
@@ -25,5 +25,5 @@ var output = document.getElementById('login');
 if (controllo === true) {
     output.innerHTML = "Benvenuto/a " + email;
 } else {
-    output.innerHTML = "Email non corretta";
+    output.innerHTML = "Email non corretta! Riprova";
 }
