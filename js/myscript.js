@@ -25,5 +25,5 @@ var output = document.getElementById('login');
 if (controllo === true) {
     output.innerHTML = "Benvenuto/a " + email;
 } else {
-    output.innerHTML = "Email non corretta! Riprova";
+    output.innerHTML = "Email non riconosciuta! Riprova";
 }
