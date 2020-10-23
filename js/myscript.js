@@ -8,7 +8,7 @@ var email = prompt("inserisci la tua email");
 var listaemail = ["anna@gmail.com","giacomo@gmail.com","giovanna@gmail.com","davide@gmail.com"];
 
 // creo una variabile di verifica
-var controllo = "";
+var controllo = false;
 
 for (var i=0; i < listaemail.length; i++){
 
