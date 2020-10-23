@@ -1,8 +1,6 @@
 // ESERCIZIO Gioco dei dadi
 
 
-var output = document.getElementById('risultato')
-
 //dico al giocatore di tirare i dadi
 var button = alert("tira i dadi");
 
@@ -15,6 +13,9 @@ var randompc = Math.floor(Math.random()*6 +1);
 console.log("numero pc", randompc);
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+var output = document.getElementById('risultato');
+
 if (randomgiocatore > randompc) {
   output.innerHTML = "Hai vinto";
 }else if (randompc > randomgiocatore) {
